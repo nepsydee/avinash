@@ -544,13 +544,13 @@ nav .fa-solid {
   .logo {
     width: 60px;
   }
-
+ 
   #header {
     background-image: url(images/phone-background.png);
   }
   .header-text {
     margin-top: 100%;
-    font-size: 16px;
+    font-size: 15px;
   }
   .header-text h1 {
     font-size: 30px;
@@ -639,10 +639,13 @@ nav .fa-solid {
   }
   .about-col-1 {
     margin-bottom: 30px;
-    margin-left: 103px;
-    width:150px;
+    margin-left: 100px;
+    width:100px;
   }
-  
+  .about-col-1 img{
+    border-radius: 0;
+    width: 80%;
+  }
 
   .about-col-2 {
     font-size: 14px;
