@@ -10,7 +10,7 @@ function opentab(tabname) {
     tabcontent.classList.remove("active-tab");
   }
   event.currentTarget.classList.add("active-links");
-  document.getElementById(tabname).classList.add("active-tab");
+  document.getElementById(tabname).classList.add("active-tab"); 
 }
 
 var sidemenu = document.getElementById("sidemenu");
@@ -22,7 +22,7 @@ function closemenu() {
 }
 
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbwz1Z9zBM4JY2dtMZfVqq4mgWr581vIrw2YVJESA59BOVwyBE46xv8qN8DxtcwRIz6TvQ/exec";
+  "https://script.google.com/macros/s/AKfycbxcz5eLH5GsAWIf9wDJpiloFoeRE6Cx2CmxUmhw92DyIU1S72FWPY584UfmZqSB6Ko/exec";
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("msg");
 form.addEventListener("submit", (e) => {
