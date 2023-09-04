@@ -25,6 +25,7 @@ html {
 }
 
 body {
+  width: 100%;
   background: rgb(28, 28, 28);
   color: var(--text-color);
 }
@@ -82,26 +83,6 @@ color: var(--text-color);
 
 }
 /* ----------------------------------- */
-/* .social-media a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 3rem;
-  height: 3rem;
-  background: transparent;
-  border: 0.2rem solid var(--main-color);
-  border-radius: 50%;
-  font-size: 1rem;
-  color: var(--main-color);
-  margin: 3rem 1.5rem 3rem 0;
-  transition: 0.5s ease;
-} */
-
-/* .social-media a:hover {
-  background: var(--main-color);
-  color: var(--second-bg-color);
-  box-shadow: 0 0 1rem var(--main-color);
-} */
 
 /* ----------------------------------------------------- */
 .header-text .btn {
@@ -151,13 +132,13 @@ text-decoration: none;
 }
 
 .btn2 span i{
-height: 55px;
-width: 55px;
+height: 20px;
+width: 20px;
 color: var(--main-color);
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 35px;
+font-size: 25px;
 margin-right: 15px;
 transition: all .45s ease;
 }
@@ -249,9 +230,22 @@ nav ul li a:hover::after {
   color: var(--main-color);
 }
 
-/* -----------------ABOUT---------------- */
-
-
+/* -----------------SOCIAL MEDIA---------------- */
+.social-icons {
+  margin-top: 30px;
+}
+.social-icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icons a:hover {
+  color: var(--main-color);
+  transform: translateY(-5px);
+}
 
 
 /* ----------------------------------------------- */
@@ -268,8 +262,8 @@ nav ul li a:hover::after {
 
 .about-col-1 {
   flex-basis: 35%;
-  width: 200%;
-  margin-bottom: 60px;
+  width: 150%;
+  margin-bottom: 40px;
   height: 40%;
   border-radius: 20px;
 }
@@ -278,26 +272,26 @@ nav ul li a:hover::after {
   width: 100%;
   height: 100%;
   border-radius: 55px;
-  margin-left: -90px;
-  margin-top: -90px;
+  margin-left: -100px;
+  margin-top: -100px;
 }
 .about-col-2 {
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 .sub-title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   color: #fff;
 }
 
 
 .tab-title h2{
-  font-size: var(--h2-font);
+  font-size: 20px;
   line-height: 1;
 }
 
 .tab-title h4{
-  font-size: 24px;
+  font-size:30px;
   font-weight: 600;
   color: var(--text-color);
   line-height: 1.5;
@@ -313,8 +307,9 @@ nav ul li a:hover::after {
     }
 
     #botn{
-margin-right: 720px;
+margin-right: 400px;
 margin-top: -100px;
+margin-left: 120px;
     }
 
 
